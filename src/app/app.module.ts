@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Telas/login/login.component';
 import { HeaderComponent } from './Componentes/header/header.component';
 import { HomeComponent } from './Telas/home/home.component';
+import { CadastroComponent } from './Telas/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
