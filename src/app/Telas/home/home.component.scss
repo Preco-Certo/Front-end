@@ -1,0 +1,81 @@
+.body{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-home{
+    width: 527px;
+    height: 527px;
+}
+
+.elipses{
+    position: absolute;
+    z-index: -1;
+    top: 133px;
+    width: 561.75px;
+}
+
+h2{
+    color: var(--gray-200);
+}
+h5{
+    color: var(--gray-400);
+}
+
+.button-login{
+    padding: 12px 18px;
+    background: var(--color-one);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--color-branco);
+    cursor: pointer;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.button-login:hover{
+    padding: 10px 16px;
+    background: transparent;
+    color: var(--color-one);
+    border: 2.5px solid var(--color-one);
+}
+
+.button-cadastro{
+    padding: 12px 18px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--gray-400);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.button-cadastro:hover{
+    padding: 10px 16px;
+    background: transparent;
+    color: var(--gray-400);
+    border: 2.5px solid var(--gray-400);
+    border-radius: 30px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+}

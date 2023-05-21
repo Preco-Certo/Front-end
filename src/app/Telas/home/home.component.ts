@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  // Textos da home
 
+  title = 'Gerencie seus produtos com facilidade e precisão';
+  subtitle = 'Simplifique a gestão de produtos com nossa plataforma fácil de usar.';
 }
