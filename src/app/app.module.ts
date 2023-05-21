@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './Telas/login/login.component';
 import { HeaderComponent } from './Componentes/header/header.component';
+import { HomeComponent } from './Telas/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

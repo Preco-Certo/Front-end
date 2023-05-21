@@ -1,0 +1,59 @@
+.body{
+    height: 80px;
+    width: 100vw;
+    border-bottom: 1.5px solid #C6C5CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header{
+    height: 40px;
+}
+
+.options{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.option{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--gray-200); 
+    cursor: pointer;
+}
+
+.traco{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 112%;
+    color: var(--gray-300);
+}
+
+.button-login{
+    padding: 8px 16px;
+    background: var(--color-one);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--color-branco);
+    cursor: pointer;
+}
+
+.button-login:hover{
+    padding: 6px 14px;
+    background: transparent;
+    color: var(--color-one);
+    border: 2px solid var(--color-one);
+}
