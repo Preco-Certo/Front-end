@@ -3,32 +3,112 @@
     <div class="container">
         <div class="title">
             <div class="texts">
-                <h3 class="bold">{{title}}</h3>
-                <p class = "p-bold">{{subtitle}}</p>
+                <h4 class="bold">{{title}}</h4>
+                <p>{{subtitle}}</p>
             </div>
-            <img src="../../../assets/Logos/logo-text.svg" alt="Preço Certo">
+            <img src="../../../assets/Logos/logo-text.svg" alt="Preço Certo" class="img-title">
         </div>
         <form action="post">
             <div class="form-row">
                 <div class="input">
                     <p class = "p-bold">CNPJ</p>
-                    <input type="text" placeholder="{{cnpj}}">
+                    <input type="text" placeholder="{{cnpj}}" class="w392">
                 </div>
                 <div class="input">
                     <p class = "p-bold">Razão Social</p>
-                    <input type="text" placeholder="{{razao}}">
+                    <input type="text" placeholder="{{razao}}" class="w601">
                 </div>
             </div>
             <div class="form-row">
                 <div class="input">
                     <p class = "p-bold">Nome Fantasia</p>
-                    <input type="text" placeholder="{{fantasia}}">
+                    <input type="text" placeholder="{{fantasia}}" class="w601">
                 </div>
                 <div class="input">
                     <p class = "p-bold">Data de Fundação</p>
-                    <input type="date">
+                    <input type="date" class="w392">
                 </div>
             </div>
+
+            
+            <h4 class="bold">Endereço</h4>
+            <div class="form-row">
+                <div class="input">
+                    <div class="text-cep">
+                        <p class = "p-bold">CEP</p>
+                        <a href="http://www.buscacep.correios.com.br/" target="_blank">Não sei meu CEP</a>
+                    </div>
+                    <input type="text" placeholder="{{cep}}" class="w392">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input">
+                    <p class = "p-bold">Endereço</p>
+                    <input type="text" placeholder="{{endereco}}" class="w704">
+                </div>
+                <div class="input">
+                    <p class = "p-bold">Número</p>
+                    <input type="text" placeholder="{{numero}}"class="w288">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input">
+                    <p class = "p-bold">Bairro</p>
+                    <input type="text" placeholder="{{bairro}}"class="w288">
+                </div>
+                <div class="input">
+                    <p class = "p-bold">Cidade</p>
+                    <input type="text" placeholder="{{cidade}}" class="w392">
+                </div>
+                <div class="input">
+                    <p class = "p-bold">UF</p>
+                    <input type="text" placeholder="{{uf}}" class="w288">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input">
+                    <p class = "p-bold">Complemento</p>
+                    <input type="text" placeholder="{{complemento}}" class="w704">
+                </div>
+            </div>
+
+            <h4 class="bold">Contatos</h4>
+
+            <div class="form-row">
+                <div class="input">
+                    <p class = "p-bold">Celular</p>
+                    <input type="text" name="" id="" placeholder="{{celular}}" class="w392">
+                </div>
+                <div class="input">
+                    <p class = "p-bold">Este número possui WhatsApp</p>
+                    <div class="checkbox">
+                        <div class="sim">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Sim</label>
+                        </div>
+                        <div class="nao">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Não</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input">
+                    <p class = "p-bold">E-mail</p>
+                    <input type="email" placeholder="{{email}}" class="w392">
+                </div>
+                <div class="input">
+                    <div class="telefone">
+                        <p class = "p-bold">Telefone Fixo</p>
+                        <label for="">(Opcional)</label>
+                    </div>
+                    <input type="text" placeholder="{{celular}}" class="w392">
+                </div>
+            </div>
+            
+            <button>Enviar Cadastro</button>
         </form>
     </div>
 </div>
