@@ -9,6 +9,8 @@ import { HomeComponent } from './Telas/home/home.component';
 import { CadastroComponent } from './Telas/cadastro/cadastro.component';
 import { MenuComponent } from './Componentes/menu/menu.component';
 import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.component';
+import { IngredientesComponent } from './Sistema/Ingredientes/ingredientes/ingredientes.component';
+import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-compra.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.compon
     HomeComponent,
     CadastroComponent,
     MenuComponent,
-    HomeSistemaComponent
+    HomeSistemaComponent,
+    IngredientesComponent,
+    ListaCompraComponent
   ],
   imports: [
     BrowserModule,
