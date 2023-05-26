@@ -15,6 +15,15 @@
     width: 257px;
     height: 52px;
     padding: 14px 16px;
+    transition: 0.1s;
+
+
+    h5{
+        color: #38B6FF;
+    }   
+    .green-hover{
+        opacity: 0%;
+    }
 }
 .button:hover{
     width: 257px;
@@ -22,16 +31,18 @@
     border-left: 4px solid #89C400;
     padding: 14px 12px;
     
+
+    .green-hover{
+        opacity: 100%;
+    }
+    
+    h5{
+        color: #89C400;
+        font-weight: 600;
+    }
+
 }
 
-h5{
-    color: #38B6FF;
-    transition: 0.3s;
-}   
-h5:hover{
-    color: #89C400;
-    font-weight: 600;
-}
 
 nav {
     display: flex;
@@ -42,4 +53,8 @@ nav {
 .logo-menu{
     margin-bottom: 104px;
     width: 80px;
+}
+
+.green-hover{
+    position: absolute;
 }

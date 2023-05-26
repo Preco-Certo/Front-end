@@ -3,13 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './Telas/login/login.component';
 import { HomeComponent } from './Telas/home/home.component';
 import { CadastroComponent } from './Telas/cadastro/cadastro.component';
-import { MenuComponent } from './Componentes/menu/menu.component';
+import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'cadastro', component: CadastroComponent },
-  { path: 'menu', component: MenuComponent }
+  { path: 'home-sistema', component: HomeSistemaComponent }
 ];
 
 @NgModule({
