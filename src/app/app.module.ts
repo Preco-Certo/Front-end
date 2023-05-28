@@ -15,7 +15,6 @@ import { CardIngredienteComponent } from './Componentes/card-ingrediente/card-in
 import { CardProdutoComponent } from './Componentes/card-produto/card-produto.component';
 import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
 import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -36,7 +35,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
