@@ -11,6 +11,7 @@ import { MenuComponent } from './Componentes/menu/menu.component';
 import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.component';
 import { IngredientesComponent } from './Sistema/Ingredientes/ingredientes/ingredientes.component';
 import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-compra.component';
+import { CardIngredienteComponent } from './Componentes/card-ingrediente/card-ingrediente.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-
     MenuComponent,
     HomeSistemaComponent,
     IngredientesComponent,
-    ListaCompraComponent
+    ListaCompraComponent,
+    CardIngredienteComponent
   ],
   imports: [
     BrowserModule,
