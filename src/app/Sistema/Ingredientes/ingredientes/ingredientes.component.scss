@@ -5,7 +5,7 @@
   
   .container {
     padding: 40px 42px;
-    width: 1595px;
+    width: 1500px;
     height: 100vh;
   }
   
@@ -77,4 +77,10 @@
   
   .input-pesquisa::placeholder {
     color: var(--gray-500);
+  }
+
+  .flex-box{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 24px;
   }
