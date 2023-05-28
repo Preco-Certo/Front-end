@@ -12,6 +12,9 @@ import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.compon
 import { IngredientesComponent } from './Sistema/Ingredientes/ingredientes/ingredientes.component';
 import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-compra.component';
 import { CardIngredienteComponent } from './Componentes/card-ingrediente/card-ingrediente.component';
+import { CardProdutoComponent } from './Componentes/card-produto/card-produto.component';
+import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
+import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { CardIngredienteComponent } from './Componentes/card-ingrediente/card-in
     HomeSistemaComponent,
     IngredientesComponent,
     ListaCompraComponent,
-    CardIngredienteComponent
+    CardIngredienteComponent,
+    CardProdutoComponent,
+    ProdutosComponent,
+    NovoProdutoComponent
   ],
   imports: [
     BrowserModule,
