@@ -1,0 +1,80 @@
+// estilização padrão sistema ==========
+.body {
+  display: flex;
+  width: 100%;
+
+  .container {
+    padding: 40px 42px;
+    width: 1595px;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 80px;
+
+      .bold {
+        color: var(--gray-200);
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .pesquisar {
+          width: 268px;
+          height: 40.5px;
+          border: 2px solid var(--gray-400);
+          border-radius: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-right: 16px;
+
+          .input-pesquisa {
+            background-color: transparent;
+            border: none;
+            height: 100%;
+            width: 100%;
+            padding: 0 16px;
+
+            .input-pesquisa::placeholder {
+              color: var(--gray-500);
+            }
+          }
+
+        }
+
+        .button {
+          border-radius: 30px;
+          border: none;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 100%;
+          width: 176px;
+          height: 40px;
+          color: var(--color-branco);
+        }
+        .ingrediente {
+          background: var(--color-one);
+        }
+
+        .ingrediente:hover {
+          background: transparent;
+          border: 2px solid var(--color-one);
+          color: var(--color-one);
+        }
+
+        .fornecedores {
+          background: var(--color-two);
+        }
+      }
+    }
+    .flex-box{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+  }
+}

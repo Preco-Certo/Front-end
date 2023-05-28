@@ -1,1 +1,88 @@
-<p>novo-produto works!</p>
+<div class="body">
+    <app-menu></app-menu>
+    <div class="container">
+        <header>
+            <h3 class="bold">Novo Produto</h3>
+            <nav>
+                <div class="pesquisar">
+                    <input type="text" placeholder="Pesquisar" class="input-pesquisa">
+                    <img src="../../../../assets/Icons/icon-lupa.svg" alt="Pesquisar">
+                </div>
+                <button routerLink="/produtos" class="button fornecedores">Salvar</button>
+            </nav>
+        </header>
+
+        <section>
+            <div class="info-pedido">
+                <h5 class="h5-bold">Informações do Produto</h5>
+                <form action="" class="form-info">
+                    <div class="input">
+                        <label class="title-input">Nome</label>
+                        <input type="text" name="" id="" placeholder="Nome do Produto" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Tamanho</label>
+                        <input type="text" name="" id="" placeholder="Tamanho" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Descrição</label>
+                        <input type="text" name="" id="" placeholder="Descrição" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Data Criação</label>
+                        <input type="date" name="" id="" class=" input1 input2">
+                    </div>
+                </form>
+            </div>
+            <div class="items">
+                <h5 class="h5-bold">Ingredientes</h5>
+                <form action="">
+                    <table class="content-table">
+                    <thead>
+                        <tr>
+                          <td class="title-table">CÓDIGO</td>
+                          <td class="title-table">INGREDIENTE</td>
+                          <td class="title-table">QUANTIDADE</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Farinha de Trigo</td>
+                            <td>120</td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+                <button class="button-adicionar">Adicionar Ingrediente</button>
+            </form>
+            </div>
+            <div class="info-pedido">
+                <h5 class="h5-bold">Custos</h5>
+                <form action="" class="form-info">
+                    <div class="input">
+                        <label class="title-input">Preço de Custo</label>
+                        <input type="number" name="" id="" placeholder="R$ 00,00" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Mão de Obra</label>
+                        <input type="number" name="" id="" placeholder="100%" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Margem de Lucro</label>
+                        <input type="number" name="" id="" placeholder="100%" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Sugestão de Preço</label>
+                        <input type="number" name="" id="" placeholder="R$ 00,00" class="input1">
+                    </div>
+                    <div class="input">
+                        <label class="title-input">Preço Final</label>
+                        <input type="number" name="" id="" placeholder="R$ 00,00" class="input1">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

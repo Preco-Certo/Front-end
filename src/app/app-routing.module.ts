@@ -6,6 +6,8 @@ import { CadastroComponent } from './Telas/cadastro/cadastro.component';
 import { HomeSistemaComponent } from './Sistema/home-sistema/home-sistema.component';
 import { IngredientesComponent } from './Sistema/Ingredientes/ingredientes/ingredientes.component';
 import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-compra.component';
+import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
+import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,7 +15,10 @@ const routes: Routes = [
   { path: 'cadastro', component: CadastroComponent },
   { path: 'home-sistema', component: HomeSistemaComponent },
   { path: 'ingredientes', component: IngredientesComponent },
-  { path: 'lista', component: ListaCompraComponent }
+  { path: 'lista', component: ListaCompraComponent },
+  { path: 'produtos', component: ProdutosComponent },
+  { path: 'novo-produto', component: NovoProdutoComponent },
+
 ];
 
 @NgModule({
