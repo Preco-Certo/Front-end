@@ -12,8 +12,9 @@
             </nav>
         </header>
         <section class="flex-box">
-            <div class="card">
-                <h5 class="h5-bold">Raviolli</h5>
+            <div class="card" *ngFor="let produto of table">
+                <div class="title" >
+                <h5 class="h5-bold">{{produto.nome}}</h5>
                 <img src="../../../assets/Image/image 27.png" alt="" class="img-produto">
                 <h5 class="h5-bold price">R$ 25,00</h5>
                 <div class="venda">
@@ -23,6 +24,7 @@
                 <div class="icon">
                     <img src="../../../assets/Icons/icon-edit.svg" alt="">
                 </div>
+            </div>
             </div>
         </section>
     </div>
