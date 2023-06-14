@@ -15,6 +15,7 @@ import { CardIngredienteComponent } from './Componentes/card-ingrediente/card-in
 import { CardProdutoComponent } from './Componentes/card-produto/card-produto.component';
 import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
 import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produ
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

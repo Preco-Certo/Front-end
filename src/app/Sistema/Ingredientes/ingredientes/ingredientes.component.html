@@ -13,13 +13,23 @@
             </nav>
         </header>
         <section class="flex-box">
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
-            <app-card-ingrediente></app-card-ingrediente>
+            <div class="card" *ngFor="let ingrediente of table">
+                <div class="title" >
+                    <h5 class="h5-bold">{{ingrediente.nome}}</h5>
+                    <img src="../../../assets/Icons/icon-lapis.svg" alt="Alterar" class="lapis">
+                </div>
+                <div class="body">
+                    <div class="backgound-img">
+                        <img src="../../../assets/Image/image-ingre.svg" alt="" class="img-ingre">
+                    </div>
+                    <div class="info">
+                        <h5 class="h5-bold">R${{ingrediente.valor_unitario}}</h5>
+                        <div class="flex-box">
+                            <p>{{ingrediente.tamanho}}g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </div>

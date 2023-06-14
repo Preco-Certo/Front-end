@@ -78,3 +78,45 @@
     }
   }
 }
+
+.card{
+  padding: 16px;
+  width: 267px;
+  height: 398px;
+  background: #FFFFFF;
+  box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .h5-bold{
+      color: var(--gray-200);
+  }
+  .img-produto{
+      width: 164px;
+      height: 164px;  
+  }
+  .price{
+      background: rgba(137, 196, 0, 0.19);
+      border-radius: 42px;
+      padding: 5px 16px;
+      color: var(--color-two);
+  }
+
+  .venda{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      p{
+          color: var(--gray-300);
+      }
+  }
+
+  .icon{
+      width: 100%;
+      text-align: end;
+  }
+}
