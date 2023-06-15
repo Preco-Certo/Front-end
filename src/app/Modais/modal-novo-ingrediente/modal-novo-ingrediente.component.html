@@ -1,10 +1,12 @@
-<div class="modal-header">
-    <h4 class="modal-title">Hi there!</h4>
-    <button type="button" class="btn-close" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-    <p>Hello!</p>
-</div>
-<div class="modal-footer">
-    <button type="button" class="btn btn-outline-dark">Close</button>
-</div>
+<form action="" [formGroup]="form">
+    <label for="">Nome</label>
+    <input type="text" formControlName="nome">
+    <label for="">Quantidade</label>
+    <input type="text"formControlName="tamanho">
+    <label for="">Descrição</label>
+    <input type="text"formControlName="descricao">
+    <label for="">Valor Unitário</label>
+    <input type="text"formControlName="valor_unitario">
+    <button (click)="onSubmit()">Cadastrar</button>
+</form>
+

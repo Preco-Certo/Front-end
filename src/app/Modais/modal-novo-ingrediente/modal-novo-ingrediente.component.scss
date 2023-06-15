@@ -1,0 +1,11 @@
+input{
+    background-color: red;
+    border: 2px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 100px;
+}

@@ -16,6 +16,9 @@ import { CardProdutoComponent } from './Componentes/card-produto/card-produto.co
 import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
 import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ModalNovoIngredienteComponent } from './Modais/modal-novo-ingrediente/modal-novo-ingrediente.component';
+
 
 @NgModule({
   declarations: [
@@ -31,12 +34,15 @@ import { HttpClientModule } from '@angular/common/http';
     CardIngredienteComponent,
     CardProdutoComponent,
     ProdutosComponent,
-    NovoProdutoComponent
+    NovoProdutoComponent,
+    ModalNovoIngredienteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

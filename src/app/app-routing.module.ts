@@ -8,6 +8,7 @@ import { IngredientesComponent } from './Sistema/Ingredientes/ingredientes/ingre
 import { ListaCompraComponent } from './Sistema/Ingredientes/lista-compra/lista-compra.component';
 import { ProdutosComponent } from './Sistema/Produtos/produtos/produtos.component';
 import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produto.component';
+import { ModalNovoIngredienteComponent } from './Modais/modal-novo-ingrediente/modal-novo-ingrediente.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'lista', component: ListaCompraComponent },
   { path: 'produtos', component: ProdutosComponent },
   { path: 'novo-produto', component: NovoProdutoComponent },
+  { path: 'novo-ingrediente', component: ModalNovoIngredienteComponent },
 
 ];
 
