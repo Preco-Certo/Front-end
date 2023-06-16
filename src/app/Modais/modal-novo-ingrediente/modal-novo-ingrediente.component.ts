@@ -35,6 +35,10 @@ export class ModalNovoIngredienteComponent {
         error => console.log('Error'),
         () => console.log('Rquest Completo')
         );
+        this.router.navigate(['/users'])
+    }
+    else{
+      alert("Preencha os campos corretamente")
     }
   }
   onCancel() {

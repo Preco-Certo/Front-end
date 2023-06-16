@@ -15,18 +15,18 @@
         <section>
             <div class="info-pedido">
                 <h5 class="h5-bold">Informações do Produto</h5>
-                <form action="" class="form-info">
+                <form action="" class="form-info" [formGroup]="form">
                     <div class="input">
                         <label class="title-input">Nome</label>
-                        <input type="text" name="" id="" placeholder="Nome do Produto" class="input1">
+                        <input type="text" name="" id="" placeholder="Nome do Produto" class="input1" formControlName="nome">
                     </div>
                     <div class="input">
                         <label class="title-input">Tamanho</label>
-                        <input type="text" name="" id="" placeholder="Tamanho" class="input1">
+                        <input type="text" name="" id="" placeholder="Tamanho" class="input1" formControlName="tamanho">
                     </div>
                     <div class="input">
                         <label class="title-input">Descrição</label>
-                        <input type="text" name="" id="" placeholder="Descrição" class="input1">
+                        <input type="text" name="" id="" placeholder="Descrição" class="input1" formControlName="descricao">
                     </div>
                     <div class="input">
                         <label class="title-input">Data Criação</label>
@@ -34,7 +34,7 @@
                     </div>
                 </form>
             </div>
-            <div class="items">
+            <!-- <div class="items">
                 <h5 class="h5-bold">Ingredientes</h5>
                 <form action="">
                     <table class="content-table">
@@ -57,7 +57,7 @@
                 </table>
                 <button class="button-adicionar">Adicionar Ingrediente</button>
             </form>
-            </div>
+            </div> -->
             <div class="info-pedido">
                 <h5 class="h5-bold">Custos</h5>
                 <form action="" class="form-info">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="input">
                         <label class="title-input">Margem de Lucro</label>
-                        <input type="number" name="" id="" placeholder="100%" class="input1">
+                        <input type="number" name="" id="" placeholder="100%" class="input1" formControlName="nome">
                     </div>
                     <div class="input">
                         <label class="title-input">Sugestão de Preço</label>

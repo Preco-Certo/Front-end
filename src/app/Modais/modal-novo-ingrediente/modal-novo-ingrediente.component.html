@@ -1,12 +1,22 @@
-<form action="" [formGroup]="form">
-    <label for="">Nome</label>
-    <input type="text" formControlName="nome">
-    <label for="">Quantidade</label>
-    <input type="text"formControlName="tamanho">
-    <label for="">Descrição</label>
-    <input type="text"formControlName="descricao">
-    <label for="">Valor Unitário</label>
-    <input type="text"formControlName="valor_unitario">
-    <button (click)="onSubmit()">Cadastrar</button>
-</form>
-
+<div class="container">
+    <app-menu></app-menu>
+    <form action="" [formGroup]="form">
+        <div class="dados">
+            <label for="" class="title-form">Nome</label>
+            <input type="text" formControlName="nome">
+        </div>
+        <div class="dados">
+            <label for="" class="title-form">Quantidade</label>
+            <input type="text"formControlName="tamanho">
+        </div>
+        <div class="dados">
+            <label for="" class="title-form">Descrição</label>
+            <input type="text"formControlName="descricao">
+        </div>
+        <div class="div">
+            <label for="" class="title-form">Valor Unitário</label>
+            <input type="text"formControlName="valor_unitario">
+        </div>
+        <button (click)="onSubmit()" class="button-register">Cadastrar</button>
+    </form>
+</div>
