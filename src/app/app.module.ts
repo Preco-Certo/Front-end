@@ -18,6 +18,8 @@ import { NovoProdutoComponent } from './Sistema/Produtos/novo-produto/novo-produ
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalNovoIngredienteComponent } from './Modais/modal-novo-ingrediente/modal-novo-ingrediente.component';
+import { FaleConoscoComponent } from './Telas/fale-conosco/fale-conosco.component';
+import { ServicosComponent } from './Telas/servicos/servicos.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ModalNovoIngredienteComponent } from './Modais/modal-novo-ingrediente/m
     CardProdutoComponent,
     ProdutosComponent,
     NovoProdutoComponent,
-    ModalNovoIngredienteComponent
+    ModalNovoIngredienteComponent,
+    FaleConoscoComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,

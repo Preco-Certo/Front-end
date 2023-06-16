@@ -5,26 +5,27 @@
             <h3 class="bold">Produtos</h3>
             <nav>
                 <div class="pesquisar">
-                    <input type="text" placeholder="Pesquisar" class="input-pesquisa">
-                    <img src="../../../../assets/Icons/icon-lupa.svg" alt="Pesquisar">
+                    <input type="text" placeholder="Pesquisar" class="input-pesquisa" />
+                    <img src="../../../../assets/Icons/icon-lupa.svg" alt="Pesquisar" />
                 </div>
-                <button routerLink="/novo-produto" class="button ingrediente">Novo Poduto</button>
+                <button routerLink="/novo-produto" class="button ingrediente">
+                    Novo Poduto
+                </button>
             </nav>
         </header>
         <section class="flex-box">
             <div class="card" *ngFor="let produto of table">
-                <div class="title" >
-                <h5 class="h5-bold">{{produto.nome}}</h5>
-                <img src="../../../assets/Image/image 27.png" alt="" class="img-produto">
-                <h5 class="h5-bold price">R$ 25,00</h5>
+                <h5 class="h5-bold">{{ produto.nome }}</h5>
+                <img src="https://static1.casapraticaqualita.com.br/articles/1/23/81/@/2698-a-lista-de-alimentos-nao-pereciveis-e-co-article_content_img-1.jpg" alt="" class="img-produto" />
+                <h5 class="h5-bold price">R$ 00,00</h5>
+
                 <div class="venda">
                     <p>Última Venda</p>
-                    <p class="p-bold">14/05/2023</p>
+                    <p class="p-bold">00/00/0000</p>
                 </div>
                 <div class="icon">
-                    <img src="../../../assets/Icons/icon-edit.svg" alt="">
+                    <img src="../../../assets/Icons/icon-edit.svg" alt="" />
                 </div>
-            </div>
             </div>
         </section>
     </div>
